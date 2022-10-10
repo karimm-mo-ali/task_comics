@@ -15,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     // TODO: implement initState
     Timer(const Duration(seconds: 3),
-        () => Navigator.pushNamed(context, currentComicScreen));
+        () => Navigator.pushReplacementNamed(context, currentComicScreen));
 
     super.initState();
   }

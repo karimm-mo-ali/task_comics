@@ -48,6 +48,7 @@ class _CurrentComicScreenState extends State<CurrentComicScreen> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
+
         title: const Text("Current Comic"),
       ),
       body: SafeArea(
